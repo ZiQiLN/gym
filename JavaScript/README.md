@@ -8,8 +8,8 @@ JavaScript implements ECMAScript Standards, which includes core features based o
 
 - Introduction to JavaScript
   - [ ] Overview of JavaScript
-  - [ ] Variables & Constants
-  - [ ] Operators
+  - [x] Variables & Constants
+  - [x] Operators
   - [ ] Data Types & Methods
   - [ ] Functions
   - [ ] Control Flow
