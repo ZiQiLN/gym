@@ -11,3 +11,6 @@ Repository currently is in early state, and it's development with GitFlow mechan
 ### Community
 
 With my colleagues we got an idea to make a public Slack to talk about programming, and open up a public blog with tricky questions and solutions to common problems. We're open to join in near month, feel free to take your invite by clicking [this link](https://join.slack.com/t/deveers/shared_invite/zt-dipag5jm-frzcC7cgwlUBYREns20Ssw).
+
+Your computer crashed? Try sending a
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd>
