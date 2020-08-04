@@ -4,7 +4,7 @@
 	"main": "index.js",
 	"license": "MIT",
 	"scripts": {
-		"start:dev": "ts-node-dev --watch lib/index.ts"
+		"start:dev": "ts-node lib/index.ts"
 	},
 	"devDependencies": {
 		"@araclx/prettier-config": "^0.0.8",
