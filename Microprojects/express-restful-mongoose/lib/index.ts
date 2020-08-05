@@ -67,6 +67,10 @@ export class ServerInstance {
 			await mongoose.connect(MONGODB_URL, {
 				autoReconnect: true, // useless
 				keepAlive: true, // useless
+				socketTimeoutMS: 3000,
+				connectTimeoutMS: 3000,
+				useNewUrlParser: true,
+				useUnifiedTopology: true,
 			})
 		}
 		run().catch((e) => console.error(e))
