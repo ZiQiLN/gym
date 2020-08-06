@@ -94,7 +94,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nconst express_1 = __importDefault(__webpack_require__(/*! express */ \"express\"));\nconst app = express_1.default();\napp.use(\"/\", (req, res) => {\n    res.json(\"Hello World\");\n});\napp.listen(3600);\n\n\n//# sourceURL=webpack:///./src/index.ts?");
+eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nconst express_1 = __importDefault(__webpack_require__(/*! express */ \"express\"));\nconst typeorm_1 = __webpack_require__(/*! typeorm */ \"typeorm\");\nconst app = express_1.default();\nasync function database() {\n    const connection = await typeorm_1.createConnection({\n        type: \"mysql\",\n        host: \"localhost\",\n        port: 3306,\n        username: \"root\",\n        password: \"\",\n        database: \"test\"\n    });\n    return connection;\n}\ndatabase();\napp.use(\"/\", (req, res) => {\n    res.json(\"Hello World\");\n});\napp.listen(3600);\n\n\n//# sourceURL=webpack:///./src/index.ts?");
 
 /***/ }),
 
@@ -106,6 +106,17 @@ eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {
 /***/ (function(module, exports) {
 
 eval("module.exports = require(\"express\");\n\n//# sourceURL=webpack:///external_%22express%22?");
+
+/***/ }),
+
+/***/ "typeorm":
+/*!**************************!*\
+  !*** external "typeorm" ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = require(\"typeorm\");\n\n//# sourceURL=webpack:///external_%22typeorm%22?");
 
 /***/ })
 
