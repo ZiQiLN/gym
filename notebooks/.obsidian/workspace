@@ -41,6 +41,14 @@
               "type": "search",
               "state": {}
             }
+          },
+          {
+            "id": "623c89c1de95a7fb",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
         ]
       }
@@ -63,6 +71,22 @@
               "type": "backlink",
               "state": {}
             }
+          },
+          {
+            "id": "b7ebd14b48a485ea",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {}
+            }
+          },
+          {
+            "id": "8af8e9c9cdf6d065",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
           }
         ]
       }
@@ -73,9 +97,9 @@
   },
   "lastOpenFiles": [
     "javascript/javascript.md",
-    "javascript/variables.md",
-    "go/modules/README.md",
-    "go/go.md",
-    "go/cli/README.md"
+    "devops/kubernetes/Untitled.md",
+    "javascript/datatypes.md",
+    "consul.md",
+    "go/flow.md"
   ]
 }

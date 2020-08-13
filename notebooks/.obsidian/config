@@ -1,5 +1,5 @@
 {
-  "theme": "obsidian",
+  "theme": "moonstone",
   "pluginEnabledStatus": {
     "File explorer": true,
     "Search": true,
@@ -8,8 +8,22 @@
     "Backlinks": true,
     "Command palette": true,
     "Markdown format importer": true,
-    "Word count": true
+    "Word count": true,
+    "Custom CSS": true,
+    "Tag pane": true,
+    "Page preview": true,
+    "Starred": true,
+    "Outline": true,
+    "Zettelkasten prefixer": false,
+    "Daily notes": false,
+    "Slides": true,
+    "Open with default app": false
   },
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "spellcheck": true,
+  "strictLineBreaks": true,
+  "foldIndent": true,
+  "showLineNumber": true,
+  "foldHeading": true
 }
