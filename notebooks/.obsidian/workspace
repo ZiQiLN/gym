@@ -1,0 +1,81 @@
+{
+  "main": {
+    "id": "f26da7f6f4b1bb67",
+    "type": "split",
+    "children": [
+      {
+        "id": "fdd14d558d7e4d7b",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "javascript/javascript.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "052c672092b56428",
+    "type": "split",
+    "children": [
+      {
+        "id": "4072929c432ba72d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d3c127be10c0133",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5b11d1f55113c69d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bab67f32f74ce055",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0176e40c3037bb5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04bfb0e6f99be00b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "javascript/javascript.md",
+    "javascript/variables.md",
+    "go/modules/README.md",
+    "go/go.md",
+    "go/cli/README.md"
+  ]
+}

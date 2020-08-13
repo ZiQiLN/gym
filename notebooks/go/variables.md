@@ -1,3 +1,4 @@
+```go
 // Initializing a new package called main
 package main
 
@@ -29,3 +30,4 @@ func main() {
 	sampleVariable := "Hello World"
 	fmt.Print(sampleVariable, "\n")
 }
+```

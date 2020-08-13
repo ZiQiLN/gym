@@ -1,0 +1,31 @@
+version: "3.8"
+services:
+  haproxy:
+    image: haproxy
+    links:
+      - api-gateway
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - 80:80
+      - 443:443
+  api-gateway:
+    build:
+      context: services/api-gateway
+      dockerfile: Dockerfile
+    image: ziqiln/api-gateway:dev
+    ports:
+      - 3000:3000
+  delivery-service:
+    build:
+      context: services/delivery-service
+      dockerfile: Dockerfile
+    image: ziqiln/delivery-service
+  order-service:
+    build:
+      context: services/order-service
+      dockerfile: Dockerfile
+  restaurants-service:
+    build:
+      context: services/restaurants-service
+      dockerfile: Dockerfile

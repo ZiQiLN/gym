@@ -4,12 +4,7 @@ JavaScript is a loosely-typed client-side scripting language that executes in V8
 
 JavaScript implements ECMAScript Standards, which includes core features based on [ECMA-262 specification](http://www.ecma-international.org/ecma-262/5.1/ECMA-262.pdf) as well other features which are not based on ECMAScript standards.
 
-#### Notebook Contents
-
-- Introduction to JavaScript
-  - [ ] Overview of JavaScript
-  - [x] Variables & Constants
-  - [x] Operators
-  - [ ] Data Types & Methods
-  - [ ] Functions
-  - [ ] Control Flow
+### Content of JavaScript Notebook
+`001` Variables - [[variables]]
+`002` Datatypes - [[datatypes]]
+`003` Operators - [[operators]]
