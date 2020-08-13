@@ -4,4 +4,8 @@ Generally, repository with my old/new experimental code when I was trying to che
 
 ## Notebooks
 
-I was writing notebooks in paper version when I was learning some things, I've decided to rewrite them into markdown powered by Foam Research (Obsidian.md) to share my repository with knowledge.
+`notebooks` are digitalized version (actually not at all) of my real-world notebooks, probably there you can find a bit of useful informations that can help you solve a common problems or simplify learn something new.
+
+### How to use Notebooks?
+
+It's quite simple, at first you'll need to download software called [Obsidian](https://obsidian.md/) which will allow you to see a research graph of my notes contained in `notebook` folder. When you'll download that software you just need to import `notebook` folder in this repository and you can explore whole content that I have in peace.
