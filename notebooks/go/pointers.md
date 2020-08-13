@@ -1,3 +1,4 @@
+```go
 package main
 
 import "fmt"
@@ -23,3 +24,4 @@ func main() {
 	// Printing out a location of pointer and value which is referenced by specified pointer, refilled with new data.
 	fmt.Print(pointer, *pointer, "\n")
 }
+```

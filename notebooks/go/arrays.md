@@ -1,3 +1,4 @@
+```go
 package main
 
 import "fmt"
@@ -20,3 +21,4 @@ func main() {
 	array := [3]int{1, 3, 6}
 	fmt.Print(array) // [ 1 3 6 ]
 }
+```

@@ -1,3 +1,4 @@
+```go
 package main
 
 import "fmt"
@@ -18,3 +19,4 @@ func main() {
 	// Printing complete m map, with deleted key "foo"
 	fmt.Println(m) // map[]
 }
+```

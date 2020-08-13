@@ -1,3 +1,4 @@
+```go
 package main
 
 import "fmt"
@@ -62,3 +63,4 @@ func main() {
 	panic("Our fucking application broke! What a suprise?!")
 
 }
+```

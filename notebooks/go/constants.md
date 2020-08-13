@@ -1,3 +1,4 @@
+```go
 package main
 
 import "fmt"
@@ -39,3 +40,4 @@ func main() {
 	// Printing values of our IOTAs.
 	fmt.Print(one, two)
 }
+```

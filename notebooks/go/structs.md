@@ -1,3 +1,4 @@
+```go
 package main
 
 import "fmt"
@@ -35,3 +36,4 @@ func main() {
 	// Printing out a variable that we defined.
 	fmt.Println(g1)
 }
+```

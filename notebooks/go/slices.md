@@ -1,3 +1,4 @@
+```go
 package main
 
 import "fmt"
@@ -39,3 +40,4 @@ func main() {
 	// Printing out slices defined before.
 	fmt.Println(s, s1, s2) // [ 2 3 4 ] [ 1 2 3 4 ] [ 2 3 ]
 }
+```
